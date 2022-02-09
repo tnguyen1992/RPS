@@ -35,8 +35,8 @@ dod = hmrIntensity2OD(d);
 % input for bad channels)
 
  tInc      = ones(size(d,1),1);                                                 
- dRange    = [0 10000000];
- SNRthresh = 2;
+ dRange    = [0.2 2.5];
+ SNRthresh = 5;
  resetFlag = 0;
  SD.MeasListAct =  ones(size(SD.MeasList,1),1); 
  SDrange = [2.5 3.5];
